@@ -10,7 +10,7 @@ body, html {
 /* Header */
 header {
     text-align: center;
-    background-color: #9bded9;
+    background-color: #c11f58;
     color: rgb(13, 13, 13);
     padding: 20px 0;
 }
@@ -44,7 +44,7 @@ main {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgb(58, 141, 158);
+    box-shadow: 0 4px 8px rgb(231, 102, 210);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     max-width: 350px;

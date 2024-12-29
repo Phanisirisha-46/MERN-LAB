@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #c11f58;
     padding: 10px;
     text-align: center;
 }
@@ -32,7 +32,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    background-color: #333;
+    background-color: #c11f58;
     color: #fff;
     text-align: center;
     padding: 10px 0;
