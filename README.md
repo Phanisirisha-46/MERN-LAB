@@ -1,4 +1,4 @@
-# MERN---LAB
+# MERN-STACK
 # College Website - Amrita Vishwa Vidyapeetam
 
 This is a basic college website created as part of the MERN LAB project. The website is a simple representation of Amrita Vishwa Vidyapeetam, showcasing relevant information such as the introduction, courses, and contact details. The website is designed to be responsive and user-friendly.
