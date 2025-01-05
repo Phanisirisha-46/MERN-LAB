@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check First Character Uppercase</title>
+</head>
+<body>
+    <script>
+        function isFirstCharacterUppercase(name) {
+            // Check if the first character is uppercase
+            return /^[A-Z]/.test(name);
+        }
+
+        let name;
+
+        // Prompt the user until a valid name is entered
+        do {
+            name = prompt("Enter your name (First letter must be uppercase):", "");
+            if (name === null) { // Handle cancel case
+                alert("You cancelled the prompt.");
+                break;
+            }
+
+            if (!isFirstCharacterUppercase(name)) {
+                alert("The first letter of the name must be uppercase. Please try again.");
+            }
+        } while (!isFirstCharacterUppercase(name));
+
+        // Display a success message if the name is valid
+        if (name !== null) {
+            alert(`Thank you, ${name}! Your input is valid.`);
+        }
+    </script>
+</body>
+</html>

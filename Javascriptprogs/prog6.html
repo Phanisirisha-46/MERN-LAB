@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Change Background Color</title>
+    <style>
+        /* Add a border to the paragraph */
+        #myParagraph {
+            border: 2px solid black;  /* Border with 2px thickness, solid style, black color */
+            padding: 10px;  /* Optional: Add some padding for spacing inside the border */
+        }
+    </style>
+</head>
+<body>
+    <p id="myParagraph">This is a sample paragraph. Click the button below to change its background color.</p>
+    
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <script>
+        function changeBackgroundColor() {
+            // Set the background color of the paragraph with id 'myParagraph'
+            document.getElementById("myParagraph").style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>

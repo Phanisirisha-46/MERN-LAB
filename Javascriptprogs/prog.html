@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browser Version</title>
+</head>
+<body>
+    <h1 id="browser-info">Detecting browser version...</h1>
+
+    <script>
+        // Get the user agent string
+        let userAgent = navigator.userAgent;
+
+        // Display the user agent string on the page
+        document.getElementById("browser-info").textContent = `Browser Information: ${userAgent}`;
+    </script>
+</body>
+</html>
