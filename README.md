@@ -11,7 +11,7 @@ The project is designed to represent the structure of a college website, with fe
 - Contact information for inquiries
 - A responsive layout for better user experience on mobile and desktop
 
-You can view the live demo of the website here: [Amrita College Website](https://phanisirisha-46.github.io/MERNLAB/Collegewebsite/clg.html)
+You can view the live demo of the website here: [Amrita College Website](https://phanisirisha-46.github.io/MERN-STACK/Collegewebsite/clg.html)
 
 ## Features
 
