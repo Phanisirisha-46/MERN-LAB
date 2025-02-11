@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analysis</title>
+    <script>
+        // Function to calculate characters, words, and lines
+        function analyzeText() {
+            // Get the input text from the textarea
+            let text = document.getElementById("textInput").value;
+
+            // Count characters
+            let charCount = text.length;
+
+            // Count words (split by whitespace)
+            let wordCount = text.trim().split(/\s+/).length;
+
+            // Count lines (split by newline character)
+            let lineCount = text.split("\n").length;
+
+            // Show the result in an alert
+            alert("Character Count: " + charCount + "\nWord Count: " + wordCount + "\nLine Count: " + lineCount);
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Text Analysis</h1>
+
+    <label for="textInput">Enter multi-line text:</label><br>
+    <textarea id="textInput" rows="10" cols="50" placeholder="Enter your text here..."></textarea>
+
+    <br><br>
+    <button onclick="analyzeText()">Submit</button>
+
+</body>
+</html>

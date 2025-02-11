@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom Welcome and Goodbye Alerts</title>
+</head>
+<body>
+    
+
+    <script>
+        // Prompt to get the user's name
+        let userName = prompt("Please enter your name:", "Guest");
+
+        // If user cancels or leaves it blank, assign "Guest"
+        if (!userName) {
+            userName = "Guest";
+        }
+
+        // Display a welcome message
+        alert(`Welcome to the site, ${userName}!`);
+
+        
+         // Handle the page unload event
+         window.onunload = function () {
+            alert(`Goodbye, ${userName}!`);
+        };
+    </script>
+    <h1>Welcome to the website!</h1>
+    <p>Feel free to navigate to another page or close the tab. A goodbye alert will be shown when you leave.</p>
+</body>
+</html>
