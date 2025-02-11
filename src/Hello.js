@@ -9,7 +9,7 @@ class Hello extends Component {
     }
 
     render() {
-        return <h1>{this.state.message}</h1>;
+        return <h1 className='box'>{this.state.message}</h1>;
     }
 }
 

@@ -1,6 +1,6 @@
 const HelloWorld = () => {
     return (
-        <div >
+        <div className="box">
             <h1>Hello, World! - stateless</h1>
         </div>
     );
